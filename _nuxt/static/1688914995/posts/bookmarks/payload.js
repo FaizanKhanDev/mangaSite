@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/posts/bookmarks", {data:[{}],fetch:{},mutations:[]});

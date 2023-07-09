@@ -1,0 +1,1 @@
+__NUXT_JSONP__("/comics/manhwa", {data:[{}],fetch:{},mutations:[]});
