@@ -1,8 +1,8 @@
 <template>
     <header class="main-header">
-        <b-container>
-            <b-row class="my-header">
-                <b-col cols="4" class="header-col-1 p-0">
+        <v-container>
+            <v-row class="my-header">
+                <v-col cols="4" class="header-col-1 p-0">
                     <v-app-bar-nav-icon color="#fff" @click="drawer" class="mobile-icons">
                         <v-icon>mdi-menu</v-icon>
                     </v-app-bar-nav-icon>
@@ -15,8 +15,8 @@
                             <h6>JOIN</h6>
                         </nuxt-link>
                     </div>
-                </b-col>
-                <b-col cols="4" class="p-0">
+                </v-col>
+                <v-col cols="4" class="p-0">
                     <div class="header-logo">
                         <nuxt-link to="/">
                             <!-- <img :src="require('~/assets/images/headerlogo.png')" alt="" /> -->
@@ -32,8 +32,8 @@
                             </svg>
                         </nuxt-link>
                     </div>
-                </b-col>
-                <b-col cols="4" class="social-icon-col  p-0">
+                </v-col>
+                <v-col cols="4" class="social-icon-col  p-0">
                     <v-app-bar-nav-icon color="#fff" class="mobile-icons">
                         <v-icon>mdi-magnify</v-icon>
                     </v-app-bar-nav-icon>
@@ -48,9 +48,9 @@
                             <v-icon color="#fff">mdi mdi-twitter</v-icon>
                         </nuxt-link>
                     </div>
-                </b-col>
-            </b-row>
-        </b-container>
+                </v-col>
+            </v-row>
+        </v-container>
         <nav class="top-navigation-bar">
 
             <ul :class="{ 'ul-res': naviDrawer }">
