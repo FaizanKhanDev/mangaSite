@@ -1,0 +1,92 @@
+.latest-updates {
+    margin-top: -2px !important;
+    background-color: #222;
+}
+
+.latest-updates-title {
+    display: flex;
+    justify-content: space-between;
+    height: 40px;
+    align-items: center;
+}
+
+.latest-updates-thumnail-col {
+    display: flex;
+
+}
+
+.latest-updates-thumnail-sub-col {
+    width: 240px;
+}
+
+.latest-updates-thumnail-col h6 {
+    color: var(--textWhite);
+    font-size: 0.9rem;
+    padding-left: 10px !important;
+}
+
+.latest-updates-thumnail-col h6:hover {
+    color: var(--mainLightBlue);
+}
+
+.main-latest-update-title:hover {
+    color: var(--mainDarkBlue);
+}
+
+.latest-updates-thumnail-col p {
+    color: var(--whiteHover);
+    font-size: 0.7rem;
+}
+
+.latest-updates-thumnail {
+    width: 120px;
+    height: 170px;
+    border-radius: 5px;
+}
+
+/* === image hover === */
+.latest-updates-thumnail:hover {
+    filter: grayscale(100%);
+}
+
+.latest-update-chapter-thumnail-detail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+    align-items: center;
+
+}
+
+.latest-update-chapter-thumnail-detail h6 {
+    margin-top: 0.5rem;
+    color: var(--whiteHover);
+
+}
+
+.latest-update-chapter-thumnail-detail h6:hover {
+    color: var(--textWhite);
+
+}
+
+.latest-updates-thumnail-col::before {
+    content: '';
+    position: absolute;
+    width: 95%;
+    height: 0.1px;
+    background-color: rgba(212, 212, 212, 0.288);
+    top: 0;
+}
+
+.view-all-post-btn:not(.v-btn--round).v-size--small {
+    height: 19px !important;
+    font-size: 0.6rem !important;
+}
+
+
+
+@media only screen and (max-width:767px) {
+    .latest-updates-thumnail-sub-col {
+        width: 350px;
+    }
+}

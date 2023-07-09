@@ -1,0 +1,28 @@
+:root {
+    --textBlack: #000;
+    --textWhite: rgb(255, 255, 255);
+    --whiteHover: rgb(199, 199, 199);
+    --primaryyellow: #e8b63e;
+    --mainDarkBlue: #3949ab;
+    --mainLightBlue: #5569bf;
+    --underLine: rgba(212, 212, 212, 0.288);
+    --secondaryBlack: #222222;
+    --thirdBlack: #343434;
+}
+
+a {
+    text-decoration: none !important;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.our-main-container {
+    background-color: var(--textBlack) !important;
+}
+
+
+.posts-row {
+    margin-top: 5rem !important;
+}

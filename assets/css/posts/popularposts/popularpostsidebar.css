@@ -1,0 +1,80 @@
+.popular-sidebar-row {
+    position: absolute;
+    right: -50px;
+    left: 24px
+}
+
+.popular-btn-group {
+    padding: 1px
+}
+
+.side-bar-btn-group {
+    background-color: #333;
+    padding: 3px 10px;
+    border-radius: 3px
+}
+
+.popular-side-bar-btn:not(.v-btn--round).v-size--small {
+    height: 20px !important;
+    font-size: .7rem;
+    min-width: 65px !important;
+    color: var(--textWhite)
+}
+
+.popular-side-bar-col {
+    display: flex;
+    align-items: center
+}
+
+.popular-side-bar-col:hover img {
+    filter: grayscale(100%)
+}
+
+.popular-side-bar-col a:hover {
+    color: var(--mainLightBlue)
+}
+
+/* 
+.active-popular-side-bar-popularAll,
+.active-popular-side-bar-popularMonthly,
+.active-popular-side-bar-popularWeekly {
+    display: flex;
+    align-items: center
+} */
+
+.popular-side-bar-col a h6 {
+    font-size: .78rem
+}
+
+.popular-side-bar-col a {
+    font-size: .7rem;
+    color: var(--textWhite)
+}
+
+.popular-side-bar-col p {
+    font-size: .8rem;
+    color: var(--whiteHover)
+}
+
+.active-popular-side-bar-btn {
+    background-color: var(--mainDarkBlue)
+}
+
+.popular-side-bar-thumnail {
+    width: 60px;
+    border-radius: 5px
+}
+
+@media only screen and (max-width:1024px) {
+    .popular-sidebar-row {
+        position: absolute;
+        right: 3px;
+        left: 17px
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .popular-sidebar-row {
+        position: static
+    }
+}

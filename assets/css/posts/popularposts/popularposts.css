@@ -1,0 +1,146 @@
+.popular-post h6,
+.popular-today h5 {
+    font-size: .9rem;
+    font-weight: 700
+}
+
+.popular-row {
+    background-color: #222
+}
+
+.post-thumnail {
+    width: 150px;
+    height: 240px;
+    border-radius: 5px
+}
+
+.popular-today {
+    border-bottom: 1px solid #312f40;
+    padding: 0;
+    display: flex;
+    align-items: center;
+}
+
+.popular-today p {
+    color: var(--whiteHover);
+    font-size: 0.8rem;
+    margin: 0 !important;
+}
+
+.popular-post h6 {
+    color: var(--textWhite)
+}
+
+.popular-post p {
+    font-size: .8rem;
+    color: var(--whiteHover)
+}
+
+.rating .v-icon {
+    padding: 0 !important
+}
+
+.popular-post-thumnail-title {
+    padding-top: 10px
+}
+
+.popular-post:hover img {
+    filter: grayscale(100%)
+}
+
+.popular-post a:hover h6 {
+    color: var(--mainLightBlue) !important
+}
+
+.popular-post {
+    max-width: 20% !important
+}
+
+.genres-post {
+    max-width: 50% !important
+}
+
+.free-height-for-slug {
+    height: 800px;
+}
+
+@media only screen and (max-width:991px) {
+    .free-height-for-slug {
+        height: auto;
+    }
+}
+
+@media only screen and (max-width:1199px) {
+    .popular-post {
+        max-width: 19% !important
+    }
+
+    .post-thumnail {
+        width: 120px;
+        height: 170px
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .popular-post {
+        max-width: 30% !important
+    }
+
+    .post-thumnail {
+        width: 150px;
+        height: 190px
+    }
+}
+
+@media only screen and (max-width:767px) {
+    .popular-post {
+        max-width: 32% !important
+    }
+}
+
+@media only screen and (max-width:557px) {
+    .popular-post {
+        max-width: 50% !important
+    }
+
+    .post-thumnail {
+        width: 250px;
+        height: 300px
+    }
+}
+
+@media only screen and (max-width:530px) {
+    .post-thumnail {
+        width: 200px;
+        height: 300px
+    }
+}
+
+@media only screen and (max-width:430px) {
+    .popular-post {
+        max-width: 50% !important
+    }
+
+    .post-thumnail {
+        width: 180px;
+        height: 300px
+    }
+}
+
+@media only screen and (max-width:405px) {
+    .popular-post {
+        margin: auto
+    }
+
+    .post-thumnail {
+        width: 170px;
+        height: 250px
+    }
+}
+
+@media only screen and (max-width:360px) {
+    .post-thumnail {
+        width: 160px;
+        height: 250px
+    }
+}

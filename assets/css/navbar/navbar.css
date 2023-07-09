@@ -1,0 +1,278 @@
+.main-header {
+    width: 100%;
+    /* background-color: var(--textBlack); */
+    background-color: var(--mainDarkBlue);
+    position: fixed;
+    z-index: 9999999;
+}
+
+.my-header {
+    display: flex;
+    justify-content: center;
+    height: 53px;
+    align-items: center;
+}
+
+.my-header::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 52px;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 0.1px;
+    background-color: rgba(212, 212, 212, 0.288);
+}
+
+.join-login {
+    display: flex;
+}
+
+
+.join-login a {
+    color: var(--textWhite);
+    position: relative;
+    top: 4px !important;
+}
+
+
+
+.join-login a:hover {
+    color: var(--whiteHover);
+}
+
+.account-icon {
+    color: var(--textWhite) !important;
+}
+
+.join-login a h6 {
+    font-size: 0.8rem;
+    margin: 0;
+    margin-left: 10px;
+    font-weight: 600;
+}
+
+.header-logo {
+    display: flex;
+    justify-content: center;
+}
+
+.header-logo img {
+    width: 50px;
+}
+
+.social-icon-col {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.social-icon {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -4px;
+    left: 60px;
+}
+
+.social-icon a .v-icon {
+    margin-left: 1rem;
+}
+
+/* =========== top Navgation bar ============== */
+.top-navigation-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: var(--mainLightBlue);
+}
+
+.top-navigation-bar ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 600px;
+    list-style-type: none;
+    margin: 0;
+    z-index: 99999999;
+
+}
+
+.top-navigation-bar ul li a {
+    color: var(--textWhite);
+    font-size: 0.79rem;
+    margin: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.comics-item {
+    color: var(--textWhite);
+    font-size: 0.79rem;
+    margin: 0;
+    font-weight: 600;
+    text-transform: uppercase;
+    cursor: pointer;
+    position: relative;
+}
+
+.comics-sub-items {
+    display: none;
+    /* display: block; */
+    list-style-type: none;
+    position: absolute;
+    left: -15px;
+    width: 250px;
+    padding-left: 0 !important;
+    top: 15px;
+    padding-top: 20px;
+    background-color: var(--mainLightBlue);
+}
+
+.comics-sub-items li {
+    padding-left: 20px;
+    line-height: 2.5rem;
+}
+
+.comics-sub-items li:hover {
+    background-color: var(--mainDarkBlue);
+}
+
+.comics-item:hover .comics-sub-items {
+    display: block;
+}
+
+.top-navigation-bar ul li a:hover {
+
+    color: var(--whiteHover);
+}
+
+.mobile-icons {
+    display: none !important;
+}
+
+/* ===== ul insider ===== */
+.ul-inside {
+    width: 100%;
+    height: 200px;
+    border-top: 0.1px solid rgba(212, 212, 212, 0.288);
+    border-bottom: 0.1px solid rgba(212, 212, 212, 0.288);
+    margin-top: 2rem;
+    align-items: center;
+}
+
+.ul-inside h6 {
+    text-transform: uppercase;
+    padding-left: 24px;
+    color: var(--textWhite);
+    font-size: 0.9rem;
+    margin-top: 2rem;
+}
+
+.insider-title {
+    color: var(--primaryyellow) !important;
+    font-size: 0.8rem !important;
+    font-weight: 700;
+}
+
+.ul-inside-icons {
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-bottom: 30px;
+}
+
+
+
+.ul-inside,
+.ul-inside-icons {
+    display: none;
+}
+
+/* ===== ul insider ===== */
+@media only screen and (max-width:994px) {
+    .mobile-icons {
+        display: block !important;
+    }
+
+    .header-logo {
+        position: relative;
+        top: -3px;
+
+    }
+
+    .join-login {
+        display: none;
+    }
+
+    .social-icon {
+        display: none;
+    }
+
+    .top-navigation-bar {
+        height: 0;
+
+    }
+
+    .top-navigation-bar ul {
+        width: auto;
+        position: absolute;
+        left: -150%;
+        display: block;
+        width: 350px;
+        height: 100vh;
+        overflow-y: scroll;
+        top: 0;
+        background-color: var(--textBlack);
+        padding-left: 0 !important;
+        transition: 0.3s;
+
+    }
+
+    .ul-res {
+        position: absolute;
+        left: 0% !important;
+    }
+
+    .top-navigation-bar ul li {
+        margin-top: 2rem;
+        padding-left: 15px;
+    }
+
+    .top-navigation-bar ul li a {
+        font-size: 1rem;
+        padding: 0 8px 0 10px;
+    }
+
+
+    .ul-inside,
+    .ul-inside-icons {
+        display: flex !important;
+    }
+
+    .comics-item {
+        font-size: 1rem;
+        margin-left: 0.5rem;
+
+    }
+
+    .comics-sub-items {
+        display: none;
+        list-style-type: none;
+        position: static;
+        left: -15px;
+        width: 100%;
+        top: 15px;
+        padding-top: 0;
+        background-color: transparent;
+    }
+
+    .comics-sub-items li {
+        margin-top: 0 !important;
+    }
+}
