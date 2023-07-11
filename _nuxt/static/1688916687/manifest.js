@@ -1,1 +1,0 @@
-__NUXT_JSONP__("manifest.js", {routes:["\u002F","\u002Fcomics\u002Fmanga","\u002Fposts\u002Fbookmarks","\u002Fcomics\u002Fmanhua","\u002Fcomics\u002Fmanhwa","\u002Fposts\u002Ftrendings"]})
