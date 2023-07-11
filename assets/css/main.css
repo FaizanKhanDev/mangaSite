@@ -12,10 +12,12 @@
 
 a {
     text-decoration: none !important;
+    color: var(--textWhite) !important;
 }
 
 a:hover {
     text-decoration: none;
+    color: var(--mainLightBlue) !important;
 }
 
 .our-main-container {

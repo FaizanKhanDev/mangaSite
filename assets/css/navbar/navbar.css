@@ -13,6 +13,10 @@
     align-items: center;
 }
 
+.my-header a {
+    color: var(--whiteHover) !important;
+}
+
 .my-header::before {
     content: '';
     position: absolute;
@@ -59,7 +63,8 @@
 }
 
 .header-logo img {
-    width: 50px;
+    width: 140px;
+    margin-top: -2px;
 }
 
 .social-icon-col {
@@ -145,7 +150,7 @@
 
 .top-navigation-bar ul li a:hover {
 
-    color: var(--whiteHover);
+    color: var(--whiteHover) !important;
 }
 
 .mobile-icons {
