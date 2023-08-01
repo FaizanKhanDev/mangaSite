@@ -8,7 +8,7 @@ import 'subscriptions-transport-ws' // this is the default of apollo-link-ws
 
 
 export default (ctx) => {
-    const httpLink = new HttpLink({ uri: 'https://ytfwlcpjffnmoduprcvd.hasura.ap-south-1.nhost.run/v1/graphql' })
+    const httpLink = new HttpLink({ uri: '' })
 
     //Error handling
     const errorLink = onError(({
